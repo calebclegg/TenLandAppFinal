@@ -4,7 +4,7 @@
 //
 //  Created by Caleb Clegg on 24/03/2022.
 //
-
+//
 import Foundation
 
 enum ImageModel: String {

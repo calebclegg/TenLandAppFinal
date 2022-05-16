@@ -4,7 +4,7 @@
 //
 //  Created by Caleb Clegg on 12/05/2022.
 //
-
+//
 import UIKit
 
 class PrivacyViewController: UIViewController {
