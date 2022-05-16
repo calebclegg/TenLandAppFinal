@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>837949160376-4pdpaqb3po393n6pvdqte3ce2njgpjsn.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.837949160376-4pdpaqb3po393n6pvdqte3ce2njgpjsn</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBOkoqXIw4LW_bDdDbadE3ZHS-cvpT-NDk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>837949160376</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>tenlandpm.tenlandpm</string>
+	<key>PROJECT_ID</key>
+	<string>tenlandpm-d110d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>tenlandpm-d110d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:837949160376:ios:4d40c9cb301dfdedd86d4d</string>
+</dict>
+</plist>

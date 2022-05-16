@@ -1,0 +1,815 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C10A6DD2826F13C0094E19C /* SettingsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C10A6DC2826F13C0094E19C /* SettingsList.swift */; };
+		1C10A6DF2826F18A0094E19C /* RequestsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C10A6DE2826F18A0094E19C /* RequestsTableViewCell.swift */; };
+		1C10A6E12826F1C30094E19C /* SettingsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C10A6E02826F1C30094E19C /* SettingsListTableViewCell.swift */; };
+		1C10A6E32826F4810094E19C /* TenantMaintenanceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C10A6E22826F4810094E19C /* TenantMaintenanceListViewController.swift */; };
+		1C10A6E52826F5470094E19C /* TenantSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C10A6E42826F5470094E19C /* TenantSettingsViewController.swift */; };
+		1C10A6E72826F5E10094E19C /* TenantLandlordDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C10A6E62826F5E10094E19C /* TenantLandlordDetailsViewController.swift */; };
+		1C10A6E92826F6DF0094E19C /* SettingsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C10A6E82826F6DF0094E19C /* SettingsListViewController.swift */; };
+		1C10A6EB2826F7850094E19C /* LandlordTenantDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C10A6EA2826F7850094E19C /* LandlordTenantDetailsViewController.swift */; };
+		1C10A6ED2826F7A20094E19C /* LandlordThemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C10A6EC2826F7A20094E19C /* LandlordThemeViewController.swift */; };
+		1C1E941827C57FB4003E8DAC /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1E941727C57FB4003E8DAC /* AccountViewController.swift */; };
+		1C1E941B27C6F1A5003E8DAC /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1E941A27C6F1A5003E8DAC /* UserViewModel.swift */; };
+		1C3409C128320E5900EBCFB2 /* ReferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3409C028320E5900EBCFB2 /* ReferencesViewController.swift */; };
+		1C660203282715AE002A3964 /* CookiesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C660202282715AE002A3964 /* CookiesTableViewCell.swift */; };
+		1C6602052827185E002A3964 /* CookiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6602042827185E002A3964 /* CookiesViewController.swift */; };
+		1C66020728281DD1002A3964 /* T&CViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C66020628281DD1002A3964 /* T&CViewController.swift */; };
+		1C66020B28282A87002A3964 /* SupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C66020A28282A87002A3964 /* SupportViewController.swift */; };
+		1C66021128282D44002A3964 /* SupportFAQTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C66021028282D44002A3964 /* SupportFAQTableViewCell.swift */; };
+		1C7221FF2828812300D917E0 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7221FE2828812300D917E0 /* ForgotPasswordViewController.swift */; };
+		1C722201282C23EE00D917E0 /* Extension+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C722200282C23EE00D917E0 /* Extension+UIViewController.swift */; };
+		1C722203282C249F00D917E0 /* BadgedButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C722202282C249F00D917E0 /* BadgedButtonItem.swift */; };
+		1C722205282C252D00D917E0 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C722204282C252D00D917E0 /* SplashViewController.swift */; };
+		1C722207282C386000D917E0 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C722206282C385F00D917E0 /* LoadingView.xib */; };
+		1C722209282C389000D917E0 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C722208282C389000D917E0 /* LoadingView.swift */; };
+		1CA173C527EC599100E1BDDD /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA173C427EC599100E1BDDD /* ImageModel.swift */; };
+		1CA4556F27D03D5000ACE1F5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA4556E27D03D5000ACE1F5 /* User.swift */; };
+		1CACB59127FA07D500ABE106 /* LandlordMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CACB59027FA07D500ABE106 /* LandlordMain.storyboard */; };
+		1CACB59527FCB22500ABE106 /* TenantMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CACB59427FCB22500ABE106 /* TenantMain.storyboard */; };
+		1CACB59827FCC7D600ABE106 /* PropertyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CACB59727FCC7D600ABE106 /* PropertyTableViewCell.swift */; };
+		1CACB59A27FCC9C300ABE106 /* TenantProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CACB59927FCC9C300ABE106 /* TenantProfileViewController.swift */; };
+		1CB241BF282CA493003A43DB /* PrivacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB241BE282CA493003A43DB /* PrivacyViewController.swift */; };
+		1CB71CC62811C60100313AB3 /* TenantAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB71CC52811C60100313AB3 /* TenantAccountViewController.swift */; };
+		1CB71CC82815F21C00313AB3 /* Maintenance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB71CC72815F21B00313AB3 /* Maintenance.swift */; };
+		1CBCB09D27DA475A0053A254 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBCB09C27DA475A0053A254 /* Post.swift */; };
+		1CF8AD4627C2ED520097BD20 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF8AD4527C2ED520097BD20 /* Database.swift */; };
+		C8E0EDB68CA2A6A4B6D930CA /* Pods_TenLandPM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D255D79F699D505EE2D2B25 /* Pods_TenLandPM.framework */; };
+		E1094C442817254F005FCD90 /* Extension+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1094C432817254F005FCD90 /* Extension+Date.swift */; };
+		E1094C4628172886005FCD90 /* SearchTenantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1094C4528172886005FCD90 /* SearchTenantsViewController.swift */; };
+		E1094C4828173928005FCD90 /* EmptyStateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1094C4728173928005FCD90 /* EmptyStateView.xib */; };
+		E1094C4A2817393E005FCD90 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1094C492817393E005FCD90 /* EmptyStateView.swift */; };
+		E13A7DF32818913100DEE5D6 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13A7DF22818913100DEE5D6 /* NotificationsViewController.swift */; };
+		E13A7DF5281892D900DEE5D6 /* NotificationsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13A7DF4281892D900DEE5D6 /* NotificationsTableViewCell.swift */; };
+		E13BD41A27FE15D5004778BB /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13BD41927FE15D5004778BB /* Property.swift */; };
+		E13BD41C27FE167E004778BB /* LeaseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13BD41B27FE167E004778BB /* LeaseType.swift */; };
+		E13BD41E27FE16A8004778BB /* PaymentDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13BD41D27FE16A8004778BB /* PaymentDate.swift */; };
+		E15D9C6F2819D20000A4EDD3 /* NotificationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15D9C6E2819D20000A4EDD3 /* NotificationDetailViewController.swift */; };
+		E178E3CB280F295A00418DDE /* TenantHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E178E3CA280F295A00418DDE /* TenantHomeViewController.swift */; };
+		E178E3CD280F2A1700418DDE /* TenantMaintenanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E178E3CC280F2A1700418DDE /* TenantMaintenanceViewController.swift */; };
+		E18E09A327B3938F00C4737A /* RootManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18E09A227B3938F00C4737A /* RootManager.swift */; };
+		E18E09A427B39B3E00C4737A /* landingvid.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E1E99E9327B1A56300739B75 /* landingvid.mp4 */; };
+		E1A9556328020AC50014BE88 /* AddPropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A9556228020AC50014BE88 /* AddPropertyViewController.swift */; };
+		E1A955652802111A0014BE88 /* TabBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A955642802111A0014BE88 /* TabBarDelegate.swift */; };
+		E1A9556828021D670014BE88 /* UploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A9556728021D670014BE88 /* UploadView.swift */; };
+		E1A9556A28021DF90014BE88 /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A9556928021DF90014BE88 /* Extension+UIColor.swift */; };
+		E1A9556D280371F30014BE88 /* LeaseTypePickerViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A9556C280371F30014BE88 /* LeaseTypePickerViewDataSource.swift */; };
+		E1A9556F280372860014BE88 /* PaymentDateDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A9556E280372860014BE88 /* PaymentDateDataSource.swift */; };
+		E1A95572280373C30014BE88 /* LeaseTypePickerViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A95571280373C30014BE88 /* LeaseTypePickerViewDelegate.swift */; };
+		E1A95574280373DB0014BE88 /* PaymentDatePickerViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A95573280373DB0014BE88 /* PaymentDatePickerViewDelegate.swift */; };
+		E1A95576280392D80014BE88 /* PropertyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A95575280392D80014BE88 /* PropertyDetailViewController.swift */; };
+		E1B203B0281887FB00E2FF7F /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B203AF281887FB00E2FF7F /* Notification.swift */; };
+		E1B203B228188AAF00E2FF7F /* TenantAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B203B128188AAF00E2FF7F /* TenantAccount.swift */; };
+		E1B291CB281B24EE0058D69A /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B291CA281B24EE0058D69A /* Theme.swift */; };
+		E1D8759E281F14D30011F30C /* PendingRequestsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D8759D281F14D30011F30C /* PendingRequestsModel.swift */; };
+		E1D875A0281F18E20011F30C /* AcceptRequestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1D8759F281F18E20011F30C /* AcceptRequestView.xib */; };
+		E1D875A2281F1A1C0011F30C /* AcceptRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D875A1281F1A1C0011F30C /* AcceptRequestView.swift */; };
+		E1E99E7A27B1A4E700739B75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E99E7927B1A4E700739B75 /* AppDelegate.swift */; };
+		E1E99E7C27B1A4E700739B75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E99E7B27B1A4E700739B75 /* SceneDelegate.swift */; };
+		E1E99E8327B1A4E800739B75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1E99E8227B1A4E800739B75 /* Assets.xcassets */; };
+		E1E99E8627B1A4E800739B75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1E99E8427B1A4E800739B75 /* LaunchScreen.storyboard */; };
+		E1E99E9527B1A58300739B75 /* Extension+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E99E9427B1A58300739B75 /* Extension+UIButton.swift */; };
+		E1E99E9727B1A59B00739B75 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E99E9627B1A59B00739B75 /* Constants.swift */; };
+		E1E99E9927B1A5C400739B75 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E99E9827B1A5C400739B75 /* Utilities.swift */; };
+		E1E99E9B27B1A75000739B75 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E99E9A27B1A75000739B75 /* RegisterViewController.swift */; };
+		E1E99E9D27B1A78900739B75 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E99E9C27B1A78900739B75 /* LandingViewController.swift */; };
+		E1E99E9F27B1A7AC00739B75 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E99E9E27B1A7AC00739B75 /* LoginViewController.swift */; };
+		E1E99EA127B1A7C800739B75 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E99EA027B1A7C800739B75 /* ProfileViewController.swift */; };
+		E1E99EA327B1A7E400739B75 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E99EA227B1A7E400739B75 /* HomeViewController.swift */; };
+		E1E99EA727B1A85E00739B75 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1E99EA627B1A85E00739B75 /* Auth.storyboard */; };
+		E1E99ECB27B1AED300739B75 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E1E99ECA27B1AED300739B75 /* GoogleService-Info.plist */; };
+		E1E99ED227B1B6E400739B75 /* UserType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E99ED127B1B6E400739B75 /* UserType.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C10A6DC2826F13C0094E19C /* SettingsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsList.swift; sourceTree = "<group>"; };
+		1C10A6DE2826F18A0094E19C /* RequestsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestsTableViewCell.swift; sourceTree = "<group>"; };
+		1C10A6E02826F1C30094E19C /* SettingsListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsListTableViewCell.swift; sourceTree = "<group>"; };
+		1C10A6E22826F4810094E19C /* TenantMaintenanceListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenantMaintenanceListViewController.swift; sourceTree = "<group>"; };
+		1C10A6E42826F5470094E19C /* TenantSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenantSettingsViewController.swift; sourceTree = "<group>"; };
+		1C10A6E62826F5E10094E19C /* TenantLandlordDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenantLandlordDetailsViewController.swift; sourceTree = "<group>"; };
+		1C10A6E82826F6DF0094E19C /* SettingsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsListViewController.swift; sourceTree = "<group>"; };
+		1C10A6EA2826F7850094E19C /* LandlordTenantDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandlordTenantDetailsViewController.swift; sourceTree = "<group>"; };
+		1C10A6EC2826F7A20094E19C /* LandlordThemeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandlordThemeViewController.swift; sourceTree = "<group>"; };
+		1C1E941727C57FB4003E8DAC /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		1C1E941A27C6F1A5003E8DAC /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		1C3409C028320E5900EBCFB2 /* ReferencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferencesViewController.swift; sourceTree = "<group>"; };
+		1C660202282715AE002A3964 /* CookiesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookiesTableViewCell.swift; sourceTree = "<group>"; };
+		1C6602042827185E002A3964 /* CookiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookiesViewController.swift; sourceTree = "<group>"; };
+		1C66020628281DD1002A3964 /* T&CViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "T&CViewController.swift"; sourceTree = "<group>"; };
+		1C66020A28282A87002A3964 /* SupportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportViewController.swift; sourceTree = "<group>"; };
+		1C66021028282D44002A3964 /* SupportFAQTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportFAQTableViewCell.swift; sourceTree = "<group>"; };
+		1C7221FE2828812300D917E0 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		1C722200282C23EE00D917E0 /* Extension+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIViewController.swift"; sourceTree = "<group>"; };
+		1C722202282C249F00D917E0 /* BadgedButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgedButtonItem.swift; sourceTree = "<group>"; };
+		1C722204282C252D00D917E0 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		1C722206282C385F00D917E0 /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		1C722208282C389000D917E0 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		1CA173C427EC599100E1BDDD /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
+		1CA4556E27D03D5000ACE1F5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1CACB59027FA07D500ABE106 /* LandlordMain.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LandlordMain.storyboard; sourceTree = "<group>"; };
+		1CACB59427FCB22500ABE106 /* TenantMain.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TenantMain.storyboard; sourceTree = "<group>"; };
+		1CACB59727FCC7D600ABE106 /* PropertyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyTableViewCell.swift; sourceTree = "<group>"; };
+		1CACB59927FCC9C300ABE106 /* TenantProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenantProfileViewController.swift; sourceTree = "<group>"; };
+		1CB241BE282CA493003A43DB /* PrivacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyViewController.swift; sourceTree = "<group>"; };
+		1CB71CC52811C60100313AB3 /* TenantAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenantAccountViewController.swift; sourceTree = "<group>"; };
+		1CB71CC72815F21B00313AB3 /* Maintenance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maintenance.swift; sourceTree = "<group>"; };
+		1CBCB09C27DA475A0053A254 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		1CF8AD4527C2ED520097BD20 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		23E2E6DE0AC6C8D298DA7346 /* Pods-TenLandPM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TenLandPM.release.xcconfig"; path = "Target Support Files/Pods-TenLandPM/Pods-TenLandPM.release.xcconfig"; sourceTree = "<group>"; };
+		25E712E2F9DC39EE826FC3E3 /* Pods-TenLandPM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TenLandPM.debug.xcconfig"; path = "Target Support Files/Pods-TenLandPM/Pods-TenLandPM.debug.xcconfig"; sourceTree = "<group>"; };
+		6D255D79F699D505EE2D2B25 /* Pods_TenLandPM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TenLandPM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1094C432817254F005FCD90 /* Extension+Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Date.swift"; sourceTree = "<group>"; };
+		E1094C4528172886005FCD90 /* SearchTenantsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTenantsViewController.swift; sourceTree = "<group>"; };
+		E1094C4728173928005FCD90 /* EmptyStateView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyStateView.xib; sourceTree = "<group>"; };
+		E1094C492817393E005FCD90 /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		E13A7DF22818913100DEE5D6 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		E13A7DF4281892D900DEE5D6 /* NotificationsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsTableViewCell.swift; sourceTree = "<group>"; };
+		E13BD41927FE15D5004778BB /* Property.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
+		E13BD41B27FE167E004778BB /* LeaseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaseType.swift; sourceTree = "<group>"; };
+		E13BD41D27FE16A8004778BB /* PaymentDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDate.swift; sourceTree = "<group>"; };
+		E15D9C6E2819D20000A4EDD3 /* NotificationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationDetailViewController.swift; sourceTree = "<group>"; };
+		E178E3CA280F295A00418DDE /* TenantHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenantHomeViewController.swift; sourceTree = "<group>"; };
+		E178E3CC280F2A1700418DDE /* TenantMaintenanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenantMaintenanceViewController.swift; sourceTree = "<group>"; };
+		E18E09A227B3938F00C4737A /* RootManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootManager.swift; sourceTree = "<group>"; };
+		E1A9556228020AC50014BE88 /* AddPropertyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPropertyViewController.swift; sourceTree = "<group>"; };
+		E1A955642802111A0014BE88 /* TabBarDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarDelegate.swift; sourceTree = "<group>"; };
+		E1A9556728021D670014BE88 /* UploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadView.swift; sourceTree = "<group>"; };
+		E1A9556928021DF90014BE88 /* Extension+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIColor.swift"; sourceTree = "<group>"; };
+		E1A9556C280371F30014BE88 /* LeaseTypePickerViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaseTypePickerViewDataSource.swift; sourceTree = "<group>"; };
+		E1A9556E280372860014BE88 /* PaymentDateDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDateDataSource.swift; sourceTree = "<group>"; };
+		E1A95571280373C30014BE88 /* LeaseTypePickerViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaseTypePickerViewDelegate.swift; sourceTree = "<group>"; };
+		E1A95573280373DB0014BE88 /* PaymentDatePickerViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDatePickerViewDelegate.swift; sourceTree = "<group>"; };
+		E1A95575280392D80014BE88 /* PropertyDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyDetailViewController.swift; sourceTree = "<group>"; };
+		E1B203AF281887FB00E2FF7F /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		E1B203B128188AAF00E2FF7F /* TenantAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenantAccount.swift; sourceTree = "<group>"; };
+		E1B291CA281B24EE0058D69A /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		E1D8759D281F14D30011F30C /* PendingRequestsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingRequestsModel.swift; sourceTree = "<group>"; };
+		E1D8759F281F18E20011F30C /* AcceptRequestView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AcceptRequestView.xib; sourceTree = "<group>"; };
+		E1D875A1281F1A1C0011F30C /* AcceptRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceptRequestView.swift; sourceTree = "<group>"; };
+		E1E99E7627B1A4E700739B75 /* TenLandPM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TenLandPM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E99E7927B1A4E700739B75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1E99E7B27B1A4E700739B75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E1E99E8227B1A4E800739B75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1E99E8527B1A4E800739B75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1E99E8727B1A4E800739B75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1E99E9327B1A56300739B75 /* landingvid.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = landingvid.mp4; sourceTree = "<group>"; };
+		E1E99E9427B1A58300739B75 /* Extension+UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIButton.swift"; sourceTree = "<group>"; };
+		E1E99E9627B1A59B00739B75 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E1E99E9827B1A5C400739B75 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		E1E99E9A27B1A75000739B75 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		E1E99E9C27B1A78900739B75 /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		E1E99E9E27B1A7AC00739B75 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E1E99EA027B1A7C800739B75 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		E1E99EA227B1A7E400739B75 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E1E99EA627B1A85E00739B75 /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
+		E1E99ECA27B1AED300739B75 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E1E99ED127B1B6E400739B75 /* UserType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserType.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1E99E7327B1A4E700739B75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8E0EDB68CA2A6A4B6D930CA /* Pods_TenLandPM.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		069EBE816070A74429FBC357 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25E712E2F9DC39EE826FC3E3 /* Pods-TenLandPM.debug.xcconfig */,
+				23E2E6DE0AC6C8D298DA7346 /* Pods-TenLandPM.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1C1E941927C6F183003E8DAC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1C1E941A27C6F1A5003E8DAC /* UserViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1CACB59627FCC77E00ABE106 /* UITableViews */ = {
+			isa = PBXGroup;
+			children = (
+				1CACB59727FCC7D600ABE106 /* PropertyTableViewCell.swift */,
+				1C10A6DE2826F18A0094E19C /* RequestsTableViewCell.swift */,
+				1C10A6E02826F1C30094E19C /* SettingsListTableViewCell.swift */,
+				1C660202282715AE002A3964 /* CookiesTableViewCell.swift */,
+				1C66021028282D44002A3964 /* SupportFAQTableViewCell.swift */,
+			);
+			path = UITableViews;
+			sourceTree = "<group>";
+		};
+		6135D71BE5354348862F18CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D255D79F699D505EE2D2B25 /* Pods_TenLandPM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E18E09A127B3937C00C4737A /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				E18E09A227B3938F00C4737A /* RootManager.swift */,
+				E1A955642802111A0014BE88 /* TabBarDelegate.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		E1A9556628021D470014BE88 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E1A9556728021D670014BE88 /* UploadView.swift */,
+				E1094C4728173928005FCD90 /* EmptyStateView.xib */,
+				E1094C492817393E005FCD90 /* EmptyStateView.swift */,
+				E13A7DF4281892D900DEE5D6 /* NotificationsTableViewCell.swift */,
+				E1D8759F281F18E20011F30C /* AcceptRequestView.xib */,
+				E1D875A1281F1A1C0011F30C /* AcceptRequestView.swift */,
+				1C722208282C389000D917E0 /* LoadingView.swift */,
+				1C722206282C385F00D917E0 /* LoadingView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E1A9556B280371D90014BE88 /* Data Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E1A9556C280371F30014BE88 /* LeaseTypePickerViewDataSource.swift */,
+				E1A9556E280372860014BE88 /* PaymentDateDataSource.swift */,
+			);
+			path = "Data Sources";
+			sourceTree = "<group>";
+		};
+		E1A95570280373A70014BE88 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				E1A95571280373C30014BE88 /* LeaseTypePickerViewDelegate.swift */,
+				E1A95573280373DB0014BE88 /* PaymentDatePickerViewDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		E1E99E6D27B1A4E700739B75 = {
+			isa = PBXGroup;
+			children = (
+				E1E99E7827B1A4E700739B75 /* TenLandPM */,
+				E1E99E7727B1A4E700739B75 /* Products */,
+				069EBE816070A74429FBC357 /* Pods */,
+				6135D71BE5354348862F18CC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E1E99E7727B1A4E700739B75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1E99E7627B1A4E700739B75 /* TenLandPM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1E99E7827B1A4E700739B75 /* TenLandPM */ = {
+			isa = PBXGroup;
+			children = (
+				E1A95570280373A70014BE88 /* Delegates */,
+				E1A9556B280371D90014BE88 /* Data Sources */,
+				E1A9556628021D470014BE88 /* Views */,
+				1CACB59627FCC77E00ABE106 /* UITableViews */,
+				1C1E941927C6F183003E8DAC /* ViewModel */,
+				E18E09A127B3937C00C4737A /* Navigation */,
+				E1E99ED027B1B6D700739B75 /* Model */,
+				E1E99E9227B1A53B00739B75 /* Storyboards */,
+				E1E99E9127B1A52A00739B75 /* ViewControllers */,
+				E1E99E9027B1A52000739B75 /* Utilities */,
+				E1E99E8F27B1A51500739B75 /* Extensions */,
+				E1E99E8D27B1A50300739B75 /* Media */,
+				E1E99E7927B1A4E700739B75 /* AppDelegate.swift */,
+				E1E99E7B27B1A4E700739B75 /* SceneDelegate.swift */,
+				E1E99E8227B1A4E800739B75 /* Assets.xcassets */,
+				E1E99E8427B1A4E800739B75 /* LaunchScreen.storyboard */,
+				E1E99ECA27B1AED300739B75 /* GoogleService-Info.plist */,
+				E1E99E8727B1A4E800739B75 /* Info.plist */,
+			);
+			path = TenLandPM;
+			sourceTree = "<group>";
+		};
+		E1E99E8D27B1A50300739B75 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				E1E99E9327B1A56300739B75 /* landingvid.mp4 */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		E1E99E8F27B1A51500739B75 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E1E99E9427B1A58300739B75 /* Extension+UIButton.swift */,
+				E1A9556928021DF90014BE88 /* Extension+UIColor.swift */,
+				E1094C432817254F005FCD90 /* Extension+Date.swift */,
+				1C722200282C23EE00D917E0 /* Extension+UIViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E1E99E9027B1A52000739B75 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E1E99E9627B1A59B00739B75 /* Constants.swift */,
+				E1E99E9827B1A5C400739B75 /* Utilities.swift */,
+				1C722202282C249F00D917E0 /* BadgedButtonItem.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		E1E99E9127B1A52A00739B75 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E1E99E9A27B1A75000739B75 /* RegisterViewController.swift */,
+				E1E99E9C27B1A78900739B75 /* LandingViewController.swift */,
+				E1E99E9E27B1A7AC00739B75 /* LoginViewController.swift */,
+				E1E99EA027B1A7C800739B75 /* ProfileViewController.swift */,
+				E1E99EA227B1A7E400739B75 /* HomeViewController.swift */,
+				1C1E941727C57FB4003E8DAC /* AccountViewController.swift */,
+				1CACB59927FCC9C300ABE106 /* TenantProfileViewController.swift */,
+				E1A9556228020AC50014BE88 /* AddPropertyViewController.swift */,
+				E1A95575280392D80014BE88 /* PropertyDetailViewController.swift */,
+				E178E3CA280F295A00418DDE /* TenantHomeViewController.swift */,
+				1C10A6E22826F4810094E19C /* TenantMaintenanceListViewController.swift */,
+				E178E3CC280F2A1700418DDE /* TenantMaintenanceViewController.swift */,
+				1C10A6E42826F5470094E19C /* TenantSettingsViewController.swift */,
+				1C10A6E62826F5E10094E19C /* TenantLandlordDetailsViewController.swift */,
+				1CB71CC52811C60100313AB3 /* TenantAccountViewController.swift */,
+				E1094C4528172886005FCD90 /* SearchTenantsViewController.swift */,
+				1C10A6E82826F6DF0094E19C /* SettingsListViewController.swift */,
+				E13A7DF22818913100DEE5D6 /* NotificationsViewController.swift */,
+				E15D9C6E2819D20000A4EDD3 /* NotificationDetailViewController.swift */,
+				1C10A6EA2826F7850094E19C /* LandlordTenantDetailsViewController.swift */,
+				1C10A6EC2826F7A20094E19C /* LandlordThemeViewController.swift */,
+				1C6602042827185E002A3964 /* CookiesViewController.swift */,
+				1C66020628281DD1002A3964 /* T&CViewController.swift */,
+				1C66020A28282A87002A3964 /* SupportViewController.swift */,
+				1C7221FE2828812300D917E0 /* ForgotPasswordViewController.swift */,
+				1C722204282C252D00D917E0 /* SplashViewController.swift */,
+				1CB241BE282CA493003A43DB /* PrivacyViewController.swift */,
+				1C3409C028320E5900EBCFB2 /* ReferencesViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E1E99E9227B1A53B00739B75 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E1E99EA627B1A85E00739B75 /* Auth.storyboard */,
+				1CACB59027FA07D500ABE106 /* LandlordMain.storyboard */,
+				1CACB59427FCB22500ABE106 /* TenantMain.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E1E99ED027B1B6D700739B75 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E1E99ED127B1B6E400739B75 /* UserType.swift */,
+				1CF8AD4527C2ED520097BD20 /* Database.swift */,
+				1CBCB09C27DA475A0053A254 /* Post.swift */,
+				1CA173C427EC599100E1BDDD /* ImageModel.swift */,
+				E13BD41B27FE167E004778BB /* LeaseType.swift */,
+				E13BD41927FE15D5004778BB /* Property.swift */,
+				1CA4556E27D03D5000ACE1F5 /* User.swift */,
+				E13BD41D27FE16A8004778BB /* PaymentDate.swift */,
+				1CB71CC72815F21B00313AB3 /* Maintenance.swift */,
+				E1B203AF281887FB00E2FF7F /* Notification.swift */,
+				E1B203B128188AAF00E2FF7F /* TenantAccount.swift */,
+				E1B291CA281B24EE0058D69A /* Theme.swift */,
+				E1D8759D281F14D30011F30C /* PendingRequestsModel.swift */,
+				1C10A6DC2826F13C0094E19C /* SettingsList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1E99E7527B1A4E700739B75 /* TenLandPM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1E99E8A27B1A4E800739B75 /* Build configuration list for PBXNativeTarget "TenLandPM" */;
+			buildPhases = (
+				E0718378AB37E82B6523B3FD /* [CP] Check Pods Manifest.lock */,
+				E1E99E7227B1A4E700739B75 /* Sources */,
+				E1E99E7327B1A4E700739B75 /* Frameworks */,
+				E1E99E7427B1A4E700739B75 /* Resources */,
+				C783DE0AEE8F24AB78A34C08 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TenLandPM;
+			productName = TenLandPM;
+			productReference = E1E99E7627B1A4E700739B75 /* TenLandPM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1E99E6E27B1A4E700739B75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					E1E99E7527B1A4E700739B75 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = E1E99E7127B1A4E700739B75 /* Build configuration list for PBXProject "TenLandPM" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1E99E6D27B1A4E700739B75;
+			productRefGroup = E1E99E7727B1A4E700739B75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1E99E7527B1A4E700739B75 /* TenLandPM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1E99E7427B1A4E700739B75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1E99EA727B1A85E00739B75 /* Auth.storyboard in Resources */,
+				E18E09A427B39B3E00C4737A /* landingvid.mp4 in Resources */,
+				E1D875A0281F18E20011F30C /* AcceptRequestView.xib in Resources */,
+				1CACB59527FCB22500ABE106 /* TenantMain.storyboard in Resources */,
+				E1E99E8627B1A4E800739B75 /* LaunchScreen.storyboard in Resources */,
+				1CACB59127FA07D500ABE106 /* LandlordMain.storyboard in Resources */,
+				E1E99ECB27B1AED300739B75 /* GoogleService-Info.plist in Resources */,
+				E1094C4828173928005FCD90 /* EmptyStateView.xib in Resources */,
+				E1E99E8327B1A4E800739B75 /* Assets.xcassets in Resources */,
+				1C722207282C386000D917E0 /* LoadingView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C783DE0AEE8F24AB78A34C08 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TenLandPM/Pods-TenLandPM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TenLandPM/Pods-TenLandPM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TenLandPM/Pods-TenLandPM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0718378AB37E82B6523B3FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TenLandPM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1E99E7227B1A4E700739B75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C10A6E32826F4810094E19C /* TenantMaintenanceListViewController.swift in Sources */,
+				E1A9556828021D670014BE88 /* UploadView.swift in Sources */,
+				1C10A6E12826F1C30094E19C /* SettingsListTableViewCell.swift in Sources */,
+				E1E99E9F27B1A7AC00739B75 /* LoginViewController.swift in Sources */,
+				E1E99E9927B1A5C400739B75 /* Utilities.swift in Sources */,
+				1CB71CC82815F21C00313AB3 /* Maintenance.swift in Sources */,
+				E13BD41A27FE15D5004778BB /* Property.swift in Sources */,
+				1C10A6DF2826F18A0094E19C /* RequestsTableViewCell.swift in Sources */,
+				E13A7DF5281892D900DEE5D6 /* NotificationsTableViewCell.swift in Sources */,
+				1C1E941827C57FB4003E8DAC /* AccountViewController.swift in Sources */,
+				E1A955652802111A0014BE88 /* TabBarDelegate.swift in Sources */,
+				E1E99ED227B1B6E400739B75 /* UserType.swift in Sources */,
+				1C10A6EB2826F7850094E19C /* LandlordTenantDetailsViewController.swift in Sources */,
+				1C10A6E92826F6DF0094E19C /* SettingsListViewController.swift in Sources */,
+				E1A95576280392D80014BE88 /* PropertyDetailViewController.swift in Sources */,
+				1C10A6DD2826F13C0094E19C /* SettingsList.swift in Sources */,
+				1CBCB09D27DA475A0053A254 /* Post.swift in Sources */,
+				1CA4556F27D03D5000ACE1F5 /* User.swift in Sources */,
+				1C7221FF2828812300D917E0 /* ForgotPasswordViewController.swift in Sources */,
+				1C722205282C252D00D917E0 /* SplashViewController.swift in Sources */,
+				E1A9556D280371F30014BE88 /* LeaseTypePickerViewDataSource.swift in Sources */,
+				1CB241BF282CA493003A43DB /* PrivacyViewController.swift in Sources */,
+				E1E99EA127B1A7C800739B75 /* ProfileViewController.swift in Sources */,
+				E15D9C6F2819D20000A4EDD3 /* NotificationDetailViewController.swift in Sources */,
+				E1E99E9727B1A59B00739B75 /* Constants.swift in Sources */,
+				E1E99E9D27B1A78900739B75 /* LandingViewController.swift in Sources */,
+				1C10A6E72826F5E10094E19C /* TenantLandlordDetailsViewController.swift in Sources */,
+				1C6602052827185E002A3964 /* CookiesViewController.swift in Sources */,
+				E1E99E9B27B1A75000739B75 /* RegisterViewController.swift in Sources */,
+				E1E99EA327B1A7E400739B75 /* HomeViewController.swift in Sources */,
+				E1A95572280373C30014BE88 /* LeaseTypePickerViewDelegate.swift in Sources */,
+				E1094C4A2817393E005FCD90 /* EmptyStateView.swift in Sources */,
+				E1D8759E281F14D30011F30C /* PendingRequestsModel.swift in Sources */,
+				E1E99E9527B1A58300739B75 /* Extension+UIButton.swift in Sources */,
+				1CACB59827FCC7D600ABE106 /* PropertyTableViewCell.swift in Sources */,
+				E178E3CD280F2A1700418DDE /* TenantMaintenanceViewController.swift in Sources */,
+				E1E99E7A27B1A4E700739B75 /* AppDelegate.swift in Sources */,
+				1CACB59A27FCC9C300ABE106 /* TenantProfileViewController.swift in Sources */,
+				E13BD41E27FE16A8004778BB /* PaymentDate.swift in Sources */,
+				E1B291CB281B24EE0058D69A /* Theme.swift in Sources */,
+				E1094C4628172886005FCD90 /* SearchTenantsViewController.swift in Sources */,
+				1C66020B28282A87002A3964 /* SupportViewController.swift in Sources */,
+				1CA173C527EC599100E1BDDD /* ImageModel.swift in Sources */,
+				E1A9556328020AC50014BE88 /* AddPropertyViewController.swift in Sources */,
+				1C660203282715AE002A3964 /* CookiesTableViewCell.swift in Sources */,
+				E13BD41C27FE167E004778BB /* LeaseType.swift in Sources */,
+				1C3409C128320E5900EBCFB2 /* ReferencesViewController.swift in Sources */,
+				1C66021128282D44002A3964 /* SupportFAQTableViewCell.swift in Sources */,
+				E1E99E7C27B1A4E700739B75 /* SceneDelegate.swift in Sources */,
+				1C722209282C389000D917E0 /* LoadingView.swift in Sources */,
+				E1B203B228188AAF00E2FF7F /* TenantAccount.swift in Sources */,
+				E1094C442817254F005FCD90 /* Extension+Date.swift in Sources */,
+				E1A9556A28021DF90014BE88 /* Extension+UIColor.swift in Sources */,
+				1C10A6E52826F5470094E19C /* TenantSettingsViewController.swift in Sources */,
+				1C722201282C23EE00D917E0 /* Extension+UIViewController.swift in Sources */,
+				1C722203282C249F00D917E0 /* BadgedButtonItem.swift in Sources */,
+				E13A7DF32818913100DEE5D6 /* NotificationsViewController.swift in Sources */,
+				1C10A6ED2826F7A20094E19C /* LandlordThemeViewController.swift in Sources */,
+				1CF8AD4627C2ED520097BD20 /* Database.swift in Sources */,
+				E178E3CB280F295A00418DDE /* TenantHomeViewController.swift in Sources */,
+				1C1E941B27C6F1A5003E8DAC /* UserViewModel.swift in Sources */,
+				1CB71CC62811C60100313AB3 /* TenantAccountViewController.swift in Sources */,
+				E1B203B0281887FB00E2FF7F /* Notification.swift in Sources */,
+				E18E09A327B3938F00C4737A /* RootManager.swift in Sources */,
+				1C66020728281DD1002A3964 /* T&CViewController.swift in Sources */,
+				E1A95574280373DB0014BE88 /* PaymentDatePickerViewDelegate.swift in Sources */,
+				E1D875A2281F1A1C0011F30C /* AcceptRequestView.swift in Sources */,
+				E1A9556F280372860014BE88 /* PaymentDateDataSource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E1E99E8427B1A4E800739B75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1E99E8527B1A4E800739B75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1E99E8827B1A4E800739B75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1E99E8927B1A4E800739B75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1E99E8B27B1A4E800739B75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25E712E2F9DC39EE826FC3E3 /* Pods-TenLandPM.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CT4SF44RT4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TenLandPM/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TenLandPM;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Auth;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tenlandpm.tenlandpm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E1E99E8C27B1A4E800739B75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23E2E6DE0AC6C8D298DA7346 /* Pods-TenLandPM.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CT4SF44RT4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TenLandPM/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TenLandPM;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Auth;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tenlandpm.tenlandpm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1E99E7127B1A4E700739B75 /* Build configuration list for PBXProject "TenLandPM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1E99E8827B1A4E800739B75 /* Debug */,
+				E1E99E8927B1A4E800739B75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1E99E8A27B1A4E800739B75 /* Build configuration list for PBXNativeTarget "TenLandPM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1E99E8B27B1A4E800739B75 /* Debug */,
+				E1E99E8C27B1A4E800739B75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1E99E6E27B1A4E700739B75 /* Project object */;
+}
